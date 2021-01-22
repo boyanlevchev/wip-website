@@ -1,14 +1,18 @@
 import React from 'react';
 
+import BackArrow from '../components/back_arrow'
+
 function InterviewTranscriptions(props) {
 
   return(
     <div className={"margins"}>
-      <h1>Julie transcribing - Extracts</h1>
+      <BackArrow destination={"/"}/>
+
+      <h1>Interview transcriptions - Extracts</h1>
 
       <section>
         <h2>Session 2</h2>
-        <ul className={"no-bullets"}>
+        <ul className={"no-bullets less-indented ul-margin-bottom li-margin-bottom"}>
           <li className={"blue-text"}>-smell of food, smelling garlic & energy to make it tasty</li>
           <li>-That’s the thing with travel, you pause much more to realise things, because it’s not part of your routine. There is something so special - you pay much more attention. It did feel really special.</li>
           <li className={"blue-text"}>-I can still visualise it a bit, it’s going away. I don’t think it’s that precise anymore.</li>
@@ -34,7 +38,7 @@ function InterviewTranscriptions(props) {
 
       <section>
         <h2>Session 3</h2>
-        <ul className={"no-bullets"}>
+        <ul className={"no-bullets less-indented li-margin-bottom"}>
           <li>-absolute desire for something where it’s pushed to destruction</li>
           <li>-sensation of something stronger, something so uncontrollable and abstract that feels like taking over.</li>
           <li className={"blue-text"}>-This feeling and just the difficulty to get out of loops. It’s probably easier to think it's an invader. I often say ’shit, this thing is back’ - it’s coming back. At least I can recognise something. Suddenly the reality changed and nobody else can see it, nobody can understand it. (1.33,29)</li>

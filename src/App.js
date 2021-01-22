@@ -8,11 +8,16 @@ import {
 
 import Home from './pages/home'
 import InterviewTranscriptions from './pages/interview_transcriptions'
+import ThePornProject from './pages/the_porn_project'
+
 
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/the-porn-project">
+          <ThePornProject />
+        </Route>
         <Route path="/interview-transcriptions">
           <InterviewTranscriptions />
         </Route>
