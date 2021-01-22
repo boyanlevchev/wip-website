@@ -8,7 +8,7 @@ function InterviewTranscriptions(props) {
     <div className={"margins"}>
       <BackArrow destination={"/"}/>
 
-      <h1>Interview transcriptions - Extracts</h1>
+      <h1>Interview transcriptions - extracts</h1>
 
       <section>
         <h2>Session 2</h2>
