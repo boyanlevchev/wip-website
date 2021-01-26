@@ -1,3 +1,10 @@
+.page-size {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+}
+
 .margins {
   margin: 50px 10% 0 10%;
   @include for-tablet-portrait-down {
@@ -31,4 +38,16 @@
 
 .bold {
   font-weight: 700;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.bg-white {
+  background-color: rgba(255,255,255,0.8);
+}
+
+.z-5 {
+  z-index: 5;
 }
