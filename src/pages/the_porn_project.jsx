@@ -22,8 +22,10 @@ function ThePornProject(props) {
 
   console.log()
   return(
-    <div className={"page-size porn-page"}>
-      <div className={"w-100 porn-navbar bg-white"}>
+    <div className={"page-size porn-page"}
+          style={{backgroundColor: "#F24726"}}>
+      <div
+        className={"w-100 porn-navbar"}>
         <BackArrow destination={"/"}/>
         <div className={"margins"}>
           <h1>The porn project</h1>
@@ -33,15 +35,39 @@ function ThePornProject(props) {
 
       <WhiteBoard>
         {/* Videos */}
-        <Video title={"My Body, My Rules"} source={"https://player.vimeo.com/video/142807045"} top={500} left={700}/>
+        <Video  title={"My Body, My Rules"}
+                source={"https://player.vimeo.com/video/142807045"}
+                top={50}
+                left={400}
+                height={100}
+                width={200}/>
 
 
         {/* Images */}
-        <Image title={"Furry character giving felatio"} source={PornLoadingImage} height={200} top={400} left={1000}/>
+        <Image  title={"Furry character giving felatio"}
+                source={PornLoadingImage}
+                height={400}
+                top={200}
+                left={400}/>
 
 
         {/* Sticky Note References */}
-        <StickyNote position={"sex-race-and-colonies"} bgColor={"bg-transparent-yellow"} reference={sexRaceAndColonies.reference} content={sexRaceAndColonies.content}/>
+        <StickyNote bgColor={"#C4208A"}
+                    width={90}
+                    top={300}
+                    left={50}
+                    fontSize={6}
+                    textColor={"white"}
+                    reference={sexRaceAndColonies.reference}
+                    content={sexRaceAndColonies.content}/>
+
+        <StickyNote bgColor={"#0819BD"}
+                    width={240}
+                    top={300}
+                    left={190}
+                    fontSize={17}
+                    textColor={"white"}
+                    content={"Long term project to build an interactive VR porn game. Questioning sexual representations, sexual desire and body representations away from the straight white male gaze. Looking at accessibility and tech through the angle of Virtual Reality."}/>
 
 
       </WhiteBoard>
