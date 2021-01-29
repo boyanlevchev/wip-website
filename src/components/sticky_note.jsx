@@ -1,9 +1,9 @@
 import React from 'react';
 
-function StickyNote({reference, content, bgColor, textColor, width, top, left, fontSize}) {
+function StickyNote({reference, content, bgColor, textColor, width, top, left, fontSize, additionalClass}) {
 
   return(
-    <div className={"sticky-note"}
+    <div className={`sticky-note ${additionalClass}`}
           style={{
             width: `${width}px`,
             position: 'absolute',

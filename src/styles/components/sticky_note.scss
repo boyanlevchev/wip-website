@@ -1,7 +1,15 @@
 .sticky-note {
-  width: 150px;
+  // width: 150px;
   // font-size: 0.1rem;
-  font-size: 10px;
+  // font-size: 10px;
   font-family: 'Roboto', sans-serif;
   padding: 5px 15px 5px 15px;
+  line-height: 1.4;
+}
+
+.reference-sticky-note {
+  padding: 2px ;
+  & p {
+    margin-top: 0;
+  }
 }
