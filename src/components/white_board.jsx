@@ -13,7 +13,8 @@ function WhiteBoard({children}) {
         defaultScale={0.9}
         wheel={{step: 100}}
         options={{
-          minScale: 0.4
+          minScale: 0.4,
+          limitToBounds: false
         }}>
 
         <TransformComponent>
