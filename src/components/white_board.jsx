@@ -10,8 +10,11 @@ function WhiteBoard({children}) {
     <div
       className={"whiteboard flex"}>
       <TransformWrapper
-        defaultScale={1.1}
-        wheel={{step: 100}}>
+        defaultScale={0.9}
+        wheel={{step: 100}}
+        options={{
+          minScale: 0.4
+        }}>
 
         <TransformComponent>
           <div className={"page-size"}>
