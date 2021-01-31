@@ -2,6 +2,7 @@
   position: fixed;
   top: 0;
   left: 2%;
+  pointer-events: auto;
 
   @include for-tablet-portrait-down {
     left: 5%;

@@ -1,14 +1,22 @@
 import React, { useState } from 'react';
 
-import PornLoadingImage from '../images/wip-porn-loading-image.jpg';
-
 import BackArrow from '../components/back_arrow';
 import StickyNote from '../components/sticky_note';
 import WhiteBoard from '../components/white_board';
 import Video from '../components/video';
 import Image from '../components/image';
 
+
+        //Import images like this, and then use the name you create to plug it into the Image component
+       // ⬇︎ NAME ⬇︎   //      //  ⬇︎ SOURCE IN RELATION TO THIS PAGE i.e. to get to the images folder, you have to go back <- one folder, and then enter the images folder
+import PornLoadingImage from '../images/wip-porn-loading-image.jpg';
+import PornSketch2 from '../images/porn-sketch2.jpg';
+import PornSketch4 from '../images/porn-sketch4.jpg';
+
+// import OverlayImage from '../images/overlay-image.jpg';
+
 function ThePornProject(props) {
+  const [ overlayOpen, setOverlayOpen ] = useState(true);
 
   const [ sexRaceAndColonies ] = useState({
     reference: <span>
@@ -30,6 +38,7 @@ function ThePornProject(props) {
               </span>
   })
 
+  const MyBodyMyRulesTitle = <span><a href="https://vimeo.com/142807045" className={"color-black"}>My Body My Rules</a> from <a href="https://vimeo.com/emiliejouvet" className={"color-black"}>emilie jouvet</a> on <a href="https://vimeo.com" className={"color-black"}>Vimeo</a>.</span>
 
 
 
@@ -50,15 +59,29 @@ function ThePornProject(props) {
         </div>
       </div>
 
+      {overlayOpen &&
+        <div className={"blurred-overlay"}>
+          <div>
+            <p>This page contains explicit content. If you are sure you want to continue, press "OK"</p>
+            <button className={"custom-button"} onClick={() => setOverlayOpen(false)}>OK</button>
+          </div>
+        </div>
+      }
 
       <WhiteBoard>
         {/* Videos */}
         <Video  title={"My Body, My Rules"}
                 source={"https://player.vimeo.com/video/142807045"}
-                top={50}
-                left={520}
-                height={100}
-                width={200}/>
+                top={0}
+                left={480}
+                height={120}
+                width={170}
+                vimeo={true}
+                zIndex={5}
+                titleSize={12}
+                descriptionSize={7}
+                vimeoDescription={'"MY BODY MY RULES" Prix du jury Meilleurs documentaire, Festival Cheries-cheris Paris 2017 2eme prix Long-métrage, Porn Film Festival Berlin, 2017 Eloigné des diktats de la beauté féminine actuelle...'}
+                vimeoTitle={MyBodyMyRulesTitle}/>
 
 
         {/* Images */}
@@ -67,6 +90,18 @@ function ThePornProject(props) {
                 height={400}
                 top={200}
                 left={500}/>
+
+        <Image  title={"Culd different participants enter certain VR spaces to meet and interact with others? How would they appear to each other?"}
+                source={PornSketch2}
+                height={80}
+                top={500}
+                left={1000}/>
+
+        <Image  title={"Could it be live performance?"}
+                source={PornSketch4}
+                height={80}
+                top={320}
+                left={1040}/>
 
 
         {/* Reference Sticky Notes */}
@@ -140,6 +175,22 @@ function ThePornProject(props) {
                     fontSize={12}
                     textColor={"white"}
                     content={"Everyone watches it but no one wants to speak about it."}/>
+
+        <StickyNote bgColor={"#F2F3F5"}
+                    width={30}
+                    top={420}
+                    left={970}
+                    fontSize={7}
+                    textColor={"black"}
+                    content={"Sex chat rooms - interactions, role play"}/>
+
+        <StickyNote bgColor={"#F2F3F5"}
+                    width={30}
+                    top={420}
+                    left={970}
+                    fontSize={7}
+                    textColor={"black"}
+                    content={"Sex chat rooms - interactions, role play"}/>
 
 
       </WhiteBoard>
