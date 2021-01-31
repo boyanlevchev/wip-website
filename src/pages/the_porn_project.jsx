@@ -38,7 +38,18 @@ function ThePornProject(props) {
               </span>
   })
 
-  const MyBodyMyRulesTitle = <span><a href="https://vimeo.com/142807045" className={"color-black"}>My Body My Rules</a> from <a href="https://vimeo.com/emiliejouvet" className={"color-black"}>emilie jouvet</a> on <a href="https://vimeo.com" className={"color-black"}>Vimeo</a>.</span>
+  const [ lesEtudiesSavantesSurLePornographie ] = useState({
+    reference:  <span>
+                  <span className={"bold"}>PORNO 1. L’ESSOR DES « PORN STUDIES »: LES ETUDES SAVANTES SUR LA PORNOGRAPHIE, SES SOUS-GENRES ET SON IMPACT SOCIAL ET MORAL, </span>
+                  <span>20 JUILLET 2017 PAR FRÉDÉRIC JOIGNOT.</span>
+                  <a href={'https://www.lemonde.fr/blog/fredericjoignot/author/fredericjoignot/'} className={"color-white word-wrap"}>https://www.lemonde.fr/blog/fredericjoignot/author/fredericjoignot/</a>
+                </span>,
+    content:  <span>
+                <span className={"italic"}>"Le terme de « pornographie » dérive du grec pornographia, associant pornê (prostituée) et graphein (écrire, et plus largement décrire, représenter)."</span>
+              </span>
+  })
+
+  const [ myBodyMyRulesTitle ] = useState(<span><a href="https://vimeo.com/142807045" className={"color-black"}>My Body My Rules</a> from <a href="https://vimeo.com/emiliejouvet" className={"color-black"}>emilie jouvet</a> on <a href="https://vimeo.com" className={"color-black"}>Vimeo</a>.</span>)
 
 
 
@@ -76,12 +87,12 @@ function ThePornProject(props) {
                 left={480}
                 height={120}
                 width={170}
-                vimeo={true}
+                vimeo
                 zIndex={5}
                 titleSize={12}
                 descriptionSize={7}
                 vimeoDescription={'"MY BODY MY RULES" Prix du jury Meilleurs documentaire, Festival Cheries-cheris Paris 2017 2eme prix Long-métrage, Porn Film Festival Berlin, 2017 Eloigné des diktats de la beauté féminine actuelle...'}
-                vimeoTitle={MyBodyMyRulesTitle}/>
+                vimeoTitle={myBodyMyRulesTitle}/>
 
 
         {/* Images */}
@@ -115,6 +126,16 @@ function ThePornProject(props) {
                     content={sexRaceAndColonies.content}
                     additionalClass={"reference-sticky-note"}/>
 
+        <StickyNote bgColor={"#1826B7"}
+                    width={140}
+                    top={580}
+                    left={480}
+                    fontSize={6}
+                    textColor={"white"}
+                    reference={lesEtudiesSavantesSurLePornographie.reference}
+                    content={lesEtudiesSavantesSurLePornographie.content}
+                    additionalClass={"reference-sticky-note"}/>
+
         <StickyNote bgColor={"transparent"}
                     width={190}
                     top={60}
@@ -130,7 +151,7 @@ function ThePornProject(props) {
         <StickyNote bgColor={"#0819BD"}
                     width={220}
                     top={300}
-                    left={300}
+                    left={330}
                     fontSize={15}
                     textColor={"white"}
                     content={"Long term project to build an interactive VR porn game. Questioning sexual representations, sexual desire and body representations away from the straight white male gaze. Looking at accessibility and tech through the angle of Virtual Reality."}
@@ -150,6 +171,8 @@ function ThePornProject(props) {
                     left={150}
                     fontSize={9}
                     textColor={"white"}
+                    centered
+                    shadow
                     content={"Porn and racial stereotypes"}/>
 
         <StickyNote bgColor={"#1B1B1B"}
@@ -166,23 +189,27 @@ function ThePornProject(props) {
                     left={400}
                     fontSize={11}
                     textColor={"black"}
+                    shadow
+                    centered
                     content={"What is porn?"}/>
 
         <StickyNote bgColor={"#9510AC"}
                     width={60}
                     top={280}
-                    left={600}
+                    left={630}
                     fontSize={12}
                     textColor={"white"}
                     content={"Everyone watches it but no one wants to speak about it."}/>
 
         <StickyNote bgColor={"#F2F3F5"}
-                    width={30}
-                    top={420}
-                    left={970}
-                    fontSize={7}
+                    width={40}
+                    top={470}
+                    left={680}
+                    centered
+                    shadow
+                    fontSize={8}
                     textColor={"black"}
-                    content={"Sex chat rooms - interactions, role play"}/>
+                    content={"What happened to our fantasises?"}/>
 
         <StickyNote bgColor={"#F2F3F5"}
                     width={30}
@@ -191,6 +218,45 @@ function ThePornProject(props) {
                     fontSize={7}
                     textColor={"black"}
                     content={"Sex chat rooms - interactions, role play"}/>
+
+        <StickyNote bgColor={"#FDD3E1"}
+                    width={40}
+                    top={530}
+                    left={940}
+                    centered
+                    fontSize={10}
+                    textColor={"black"}
+                    shadow
+                    content={"Game/ Interaction"}/>
+
+        <StickyNote bgColor={"#FDD3E1"}
+                    width={50}
+                    top={590}
+                    left={1040}
+                    centered
+                    fontSize={8}
+                    textColor={"black"}
+                    shadow
+                    content={"Create new representations / embodiment"}/>
+
+        <StickyNote bgColor={"#1E1EAE"}
+                    width={70}
+                    top={610}
+                    left={930}
+                    centered
+                    bold
+                    fontSize={10}
+                    textColor={"white"}
+                    content={"VR Porn space"}/>
+
+        <StickyNote bgColor={"#F2F3F5"}
+                    width={50}
+                    top={560}
+                    left={830}
+                    fontSize={8}
+                    textColor={"black"}
+                    shadow
+                    content={"What place is porn taking for people who can't have sex?"}/>
 
 
       </WhiteBoard>
