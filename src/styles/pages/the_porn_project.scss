@@ -24,6 +24,10 @@
   color: white;
   text-align: center;
   overflow: hidden;
+  & p {
+    padding: 0px 20px 0 20px;
+    text-align: center;
+  }
 }
 
 .custom-button {
@@ -34,10 +38,12 @@
   height: 40px;
   width: 70px;
   font-size: 1.6rem;
+  text-align: center;
   cursor: pointer;
 }
 
 .blurred-overlay::before {
+  overflow: hidden;
   height: calc(100% + 100px);
   width: calc(100% + 100px);
   top: -50;

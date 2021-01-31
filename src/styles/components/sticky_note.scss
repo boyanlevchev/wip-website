@@ -5,6 +5,9 @@
   font-family: 'Roboto', sans-serif;
   padding: 5px 15px 5px 15px;
   line-height: 1.4;
+  backface-visibility: hidden;
+  transform: translateZ(1);
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .reference-sticky-note {
