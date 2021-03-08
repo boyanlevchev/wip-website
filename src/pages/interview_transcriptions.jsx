@@ -8,7 +8,7 @@ function InterviewTranscriptions(props) {
     <div className={"margins transcriptions-page"}>
       <BackArrow destination={"/"}/>
 
-      <h1 className={"italic"}>“I know this by heart” Interview excerpts</h1>
+      <h1 className={"italic transcriptions-title"}>“I know this by heart” Interview excerpts</h1>
       <div className={"columns"}>
         Notes from Léa:
         <br/>

@@ -2,7 +2,9 @@
   column-count: 2;
   column-gap: 3rem;
   line-height: 1.4rem;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   @include for-tablet-portrait-down {
     column-count: 1;
   }
@@ -11,4 +13,9 @@
 .transcriptions-page {
   font-family: 'Lato', sans-serif;
   color: #1155cc;
+}
+
+.transcriptions-title {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
 }
