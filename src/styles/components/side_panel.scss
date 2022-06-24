@@ -4,4 +4,8 @@
   box-sizing: border-box;
   height: 100vh;
   padding: 3rem;
+  @include for-tablet-portrait-down {
+    width: 20vw;
+    padding: 0.5rem;
+  }
 }
