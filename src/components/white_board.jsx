@@ -11,7 +11,7 @@ function WhiteBoard({children}) {
 
   return(
     <div
-      className={"whiteboard flex"}>
+      className={"whiteboard flex center"}>
       <TransformWrapper
         defaultScale={0.9}
         wheel={{step: 100}}
@@ -23,8 +23,8 @@ function WhiteBoard({children}) {
         >
 
         <TransformComponent>
-          <div className={"page-size"}>
-            <div className={"page-size moveable-area"}>
+          <div className={"full-size"}>
+            <div className={"full-size moveable-area"}>
               {children}
             </div>
           </div>

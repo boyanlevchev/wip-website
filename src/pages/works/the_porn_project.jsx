@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 import React from 'react';
 
-import BackArrow from '../components/back_arrow';
+// import BackArrow from '../../components/back_arrow';
 // import StickyNote from '../components/sticky_note';
 // import WhiteBoard from '../components/white_board';
 // import Video from '../components/video';
@@ -59,13 +59,13 @@ function ThePornProject(props) {
 
   // console.log()
   return(
-    <div className={"page-size porn-page"}
+    <div className={"full-size porn-page"}
           style={{
             backgroundColor: "#F24726"
           }}>
       <div
         className={"w-100 porn-navbar"}>
-        <BackArrow destination={"/"}/>
+        {/* <BackArrow destination={"/"}/> */}
         <div className={"margins"}>
           <h1>The porn project</h1>
         </div>

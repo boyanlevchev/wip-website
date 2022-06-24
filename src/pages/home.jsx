@@ -1,15 +1,13 @@
 import React from 'react';
 
-import { Link } from "react-router-dom";
-
 function Home(props) {
 
   return(
-    <div className={""}>
-      <ul className={"no-bullets less-indented ul-margin-bottom li-margin-bottom"}>
-        <li><Link to="/the-porn-project">The Porn Project</Link></li>
-        <li><Link to="/interview-transcriptions">Interview Transcriptions</Link></li>
-      </ul>
+    <div className={"flex w-100 pt-3 justify-center"}>
+      <img
+        className="img-size"
+        src="https://res.cloudinary.com/dt47helyp/image/upload/v1656027824/Julie/IMG_1810_b2it5y.jpg"
+        alt="degree show invitation" />
     </div>
   );
 }

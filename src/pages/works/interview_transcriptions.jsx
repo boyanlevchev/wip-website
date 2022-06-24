@@ -1,12 +1,12 @@
 import React from 'react';
 
-import BackArrow from '../components/back_arrow'
+// import BackArrow from '../../components/back_arrow'
 
 function InterviewTranscriptions(props) {
 
   return(
     <div className={"margins transcriptions-page"}>
-      <BackArrow destination={"/"}/>
+      {/* <BackArrow destination={"/works"}/> */}
 
       <h1 className={"italic transcriptions-title"}>“I know this by heart” Interview excerpts</h1>
       <div className={"columns"}>

@@ -1,18 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
 
+$green: #45CB85;
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+li {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: $green;
+}
+
+h2 {
   font-size: 1.2rem;
 }
 
 li {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 
