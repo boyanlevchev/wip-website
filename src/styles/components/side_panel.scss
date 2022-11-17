@@ -1,6 +1,8 @@
 .side-panel {
-  width: 25vw;
+  width: 35vw;
   // border-right: 1px solid lightgray;
+  position: sticky;
+  top: 0;
   box-sizing: border-box;
   height: 100vh;
   padding: 3rem;

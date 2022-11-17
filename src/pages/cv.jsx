@@ -15,13 +15,15 @@ function CV(props) {
       <section>
         <h2>Upcoming</h2>
         <p><span className="date">2022/2023</span> - <i>CW+ Relax Digital Commission</i>, Chelsea and Westminster NHS Trust, London</p>
-        <p><span className="date">2022</span> - <i>Land of my dreams</i>, Royal College of Art graduation show, London</p>
+        <p><span className="date">2022</span> - <i>Sexual Matter Workshop + 'Bodyscapes'</i>, The Lab at Oaklands Rise, Bow Arts, London</p>
       </section>
 
       <section>
         <h2>Select Group Shows</h2>
-        <p><span className="date">2022</span> - Hybrid Realities, www.hybrid-realities.com, online</p>
-        <p><span className="date">2022</span> - Silicon Valet curated selection,www.hybrid-realities.com/silicon-valet-x-hybrid-realities, online</p>
+        <p><span className="date">2022</span> - <i>Pure Class</i>, St John on Bethnal Green Church, London</p>
+        <p><span className="date">2022</span> - <i>Land of my dreams</i>, Royal College of Art graduation show, London</p>
+        <p><span className="date">2022</span> - <i>Hybrid Realities</i>, www.hybrid-realities.com, online</p>
+        <p><span className="date">2022</span> - <i>Silicon Valet</i> curated selection, www.hybrid-realities.com/silicon-valet-x-hybrid-realities, online</p>
         <p><span className="date">2022</span> - <i>CAP Salon</i>, London</p>
         <p><span className="date">2022</span> - <i>Technologies and the Abyss</i>, London</p>
         <p><span className="date">2022</span> - <i>Artist films rendez-vous</i>, London</p>
@@ -42,6 +44,7 @@ function CV(props) {
 
       <section>
         <h2>Residencies</h2>
+        <p><span className="date">2022/2023</span> - <i>CW+ Relax Artist Residency</i>, Chelsea and Westminster NHS Trust, London</p>
         <p><span className="date">2015</span> - <i>Mémoire d'Images</i>, Villa Abd-el-Tif, Algeria</p>
       </section>
 

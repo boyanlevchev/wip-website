@@ -5,7 +5,7 @@ import React from 'react';
 // import StickyNote from '../components/sticky_note';
 // import WhiteBoard from '../components/white_board';
 // import Video from '../components/video';
-// import Image from '../components/image';
+// import AbsoluteImage from '../components/image';
 
 
 //         //Import images like this, and then use the name you create to plug it into the Image component
@@ -112,19 +112,19 @@ export default ThePornProject;
 
 
  //        {/* Images */}
- //        <Image  title={"Furry character giving felatio"}
+ //        <AbsoluteImage  title={"Furry character giving felatio"}
  //                source={PornLoadingImage}
  //                height={400}
  //                top={200}
  //                left={500}/>
 
- //        <Image  title={"Culd different participants enter certain VR spaces to meet and interact with others? How would they appear to each other?"}
+ //        <AbsoluteImage  title={"Culd different participants enter certain VR spaces to meet and interact with others? How would they appear to each other?"}
  //                source={PornSketch2}
  //                height={80}
  //                top={500}
  //                left={1000}/>
 
- //        <Image  title={"Could it be live performance?"}
+ //        <AbsoluteImage  title={"Could it be live performance?"}
  //                source={PornSketch4}
  //                height={80}
  //                top={320}

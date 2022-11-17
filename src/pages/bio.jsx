@@ -4,7 +4,7 @@ function Bio(props) {
 
   return (
     <article className={"page-padding"}>
-      <section className={"text-column"}>
+      <section className={"text-column bio-page"}>
         <p>
           julie dusuel is a French artist currently living between Marseille and London, but originally from Amiens in the North of France.
         </p>

@@ -6,19 +6,22 @@
 }
 
 .margins {
-  margin: 50px 10% 0 10%;
+  margin: 8rem 10% 0 10%;
   @include for-tablet-portrait-down {
     margin: 50px 0 6% 0 6%;
   }
 }
 
 .page-size {
-  width: 50vw;
+  width: 55vw;
+  @include for-tablet-portrait-down {
+    width: 100%;
+  }
 }
 
 .page-padding {
   box-sizing: border-box;
-  padding: 2rem;
+  padding: 4rem 2rem;
 }
 
 .no-bullets li {

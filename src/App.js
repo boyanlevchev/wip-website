@@ -12,6 +12,7 @@ import CV from './pages/cv'
 import Bio from './pages/bio'
 import Shows from './pages/shows'
 import Contact from './pages/contact'
+import SexualMatter from './pages/sexual_matter'
 
 import InterviewTranscriptions from './pages/works/interview_transcriptions'
 import ThePornProject from './pages/works/the_porn_project'
@@ -35,6 +36,9 @@ function App() {
               </Route>
               <Route path="/cv">
                 <CV />
+              </Route>
+              <Route path="/sexual_matter">
+                <SexualMatter />
               </Route>
 
               <Route path="/works/the-porn-project">

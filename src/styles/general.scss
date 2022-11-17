@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .center {
   align-items: center;
   justify-content: center;
@@ -60,7 +64,10 @@
 }
 
 .text-column {
-  width: 300px;
+  width: 60%;
+  @include for-tablet-landscape-down {
+    width: 100%;
+  }
 }
 
 .img-size {

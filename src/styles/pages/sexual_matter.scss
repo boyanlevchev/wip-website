@@ -1,0 +1,45 @@
+.sexual-matter-heading-container {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  pointer-events: none;
+}
+
+.sexual-matter-section-2 {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  top: 80%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sexual-matter-heading {
+  font-family: 'Crimson Text', serif;
+  font-size: 2rem;
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+}
+
+.sexual-matter-heading-container p {
+  font-family: 'Crimson Text', serif;
+  width: 40%;
+  font-size: 1.4rem;
+  text-align: center;
+  color: white;
+}
+
+ .sexual-matter-section-2 p {
+  font-family: 'Crimson Text', serif;
+  width: 40%;
+  font-size: 1.4rem;
+  text-align: center;
+ }
