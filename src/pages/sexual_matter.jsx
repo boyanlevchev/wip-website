@@ -26,6 +26,15 @@ function SexualMatter(props) {
             04 December, 2022
             <br/>
             The Lab at Oaklands Rise, London, NW10 6FT
+            <br />
+            <a
+              href="https://www.eventbrite.co.uk/e/bodyscapes-workshop-tickets-471014395737"
+              target="_blank"
+              rel="noreferrer"
+              className="color-grey"
+            >
+              Register here
+            </a>
           </p>
         </section>
       </article>
